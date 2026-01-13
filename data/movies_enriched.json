@@ -77,5 +77,31 @@
     ],
     "rating": 7.3,
     "active": true
+  },
+  {
+    "tmdb_id": 381284,
+    "title": "Il diritto di contare",
+    "year": 2016,
+    "genres": [
+      "drama"
+    ],
+    "platforms": [
+      "disney"
+    ],
+    "rating": 8.1,
+    "active": true
+  },
+  {
+    "tmdb_id": 45269,
+    "title": "Il discorso del re",
+    "year": 2010,
+    "genres": [
+      "drama"
+    ],
+    "platforms": [
+      "prime"
+    ],
+    "rating": 7.7,
+    "active": true
   }
 ]
