@@ -1,0 +1,81 @@
+[
+  {
+    "tmdb_id": 338766,
+    "title": "Hell or High Water",
+    "year": 2016,
+    "genres": [
+      "crime",
+      "drama"
+    ],
+    "platforms": [
+      "netflix"
+    ],
+    "rating": 7.3,
+    "active": true
+  },
+  {
+    "tmdb_id": 395834,
+    "title": "I segreti di Wind River",
+    "year": 2017,
+    "genres": [
+      "crime",
+      "thriller"
+    ],
+    "platforms": [
+      "prime",
+      "now"
+    ],
+    "rating": 7.4,
+    "active": true
+  },
+  {
+    "tmdb_id": 359940,
+    "title": "Tre manifesti a Ebbing, Missouri",
+    "year": 2017,
+    "genres": [
+      "crime",
+      "drama"
+    ],
+    "platforms": [
+      "disney"
+    ],
+    "rating": 8.1,
+    "active": true
+  },
+  {
+    "tmdb_id": 185,
+    "title": "Arancia meccanica",
+    "year": 1971,
+    "genres": [
+      "scifi",
+      "crime"
+    ],
+    "platforms": [],
+    "rating": 8.2,
+    "active": true
+  },
+  {
+    "tmdb_id": 595,
+    "title": "Il buio oltre la siepe",
+    "year": 1962,
+    "genres": [
+      "drama"
+    ],
+    "platforms": [],
+    "rating": 8.0,
+    "active": true
+  },
+  {
+    "tmdb_id": 44264,
+    "title": "Il Grinta",
+    "year": 2010,
+    "genres": [
+      "drama"
+    ],
+    "platforms": [
+      "now"
+    ],
+    "rating": 7.3,
+    "active": true
+  }
+]
