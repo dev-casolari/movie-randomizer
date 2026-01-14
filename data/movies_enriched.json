@@ -14,21 +14,6 @@
     "active": true
   },
   {
-    "tmdb_id": 395834,
-    "title": "I segreti di Wind River",
-    "year": 2017,
-    "genres": [
-      "crime",
-      "thriller"
-    ],
-    "platforms": [
-      "prime",
-      "now"
-    ],
-    "rating": 7.4,
-    "active": true
-  },
-  {
     "tmdb_id": 359940,
     "title": "Tre manifesti a Ebbing, Missouri",
     "year": 2017,
@@ -40,29 +25,6 @@
       "disney"
     ],
     "rating": 8.1,
-    "active": true
-  },
-  {
-    "tmdb_id": 185,
-    "title": "Arancia meccanica",
-    "year": 1971,
-    "genres": [
-      "scifi",
-      "crime"
-    ],
-    "platforms": [],
-    "rating": 8.2,
-    "active": true
-  },
-  {
-    "tmdb_id": 595,
-    "title": "Il buio oltre la siepe",
-    "year": 1962,
-    "genres": [
-      "drama"
-    ],
-    "platforms": [],
-    "rating": 8.0,
     "active": true
   },
   {
@@ -114,6 +76,34 @@
     ],
     "platforms": [],
     "rating": 7.7,
+    "active": true
+  },
+  {
+    "tmdb_id": 388,
+    "title": "Inside Man",
+    "year": 2006,
+    "genres": [
+      "crime",
+      "drama"
+    ],
+    "platforms": [
+      "now"
+    ],
+    "rating": 7.4,
+    "active": true
+  },
+  {
+    "tmdb_id": 164457,
+    "title": "Il fuoco della vendetta - Out of the Furnace",
+    "year": 2013,
+    "genres": [
+      "thriller",
+      "drama"
+    ],
+    "platforms": [
+      "prime"
+    ],
+    "rating": 6.6,
     "active": true
   }
 ]
