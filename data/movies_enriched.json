@@ -105,5 +105,19 @@
     ],
     "rating": 6.6,
     "active": true
+  },
+  {
+    "tmdb_id": 152742,
+    "title": "La migliore offerta",
+    "year": 2013,
+    "genres": [
+      "drama",
+      "romance"
+    ],
+    "platforms": [
+      "now"
+    ],
+    "rating": 7.8,
+    "active": true
   }
 ]
