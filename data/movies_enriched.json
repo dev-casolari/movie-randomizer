@@ -119,5 +119,41 @@
     ],
     "rating": 7.8,
     "active": true
+  },
+  {
+    "tmdb_id": 25196,
+    "title": "Crazy Heart",
+    "year": 2009,
+    "genres": [
+      "drama",
+      "romance"
+    ],
+    "platforms": [],
+    "rating": 6.9,
+    "active": true
+  },
+  {
+    "tmdb_id": 256591,
+    "title": "Focus - Niente Ã¨ come sembra",
+    "year": 2015,
+    "genres": [
+      "romance",
+      "comedy"
+    ],
+    "platforms": [],
+    "rating": 6.9,
+    "active": true
+  },
+  {
+    "tmdb_id": 615777,
+    "title": "Babylon",
+    "year": 2022,
+    "genres": [
+      "drama",
+      "comedy"
+    ],
+    "platforms": [],
+    "rating": 7.4,
+    "active": true
   }
 ]
