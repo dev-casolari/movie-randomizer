@@ -23,6 +23,14 @@ GENRE_OPTIONS = {
     "Horror": "horror",
 }
 
+PLATFORM_OPTIONS = {
+    "Qualsiasi": None,
+    "Netflix": "netflix",
+    "Amazon Prime": "prime",
+    "Disney+": "disney",
+    "Now TV": "now",
+}
+
 st.set_page_config(
     page_title="Movie Randomizer",
     page_icon="🎬",
@@ -44,6 +52,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.session_state.setdefault("shown_ids", set())
 st.session_state.setdefault("current_movie", None)
 st.session_state.setdefault("last_genre", None)
+st.session_state.setdefault("last_platform", None)
 st.session_state.setdefault("no_more_movies", False)
 
 # -----------------------
@@ -53,22 +62,35 @@ st.session_state.setdefault("no_more_movies", False)
 movies = load_enriched_movies()
 
 # -----------------------
-# Filter (single, light)
+# Filters
 # -----------------------
 
-label = st.selectbox(
-    "Che tipo di film?",
-    options=list(GENRE_OPTIONS.keys()),
-    index=0,
-)
+cols = st.columns([0.1, 0.1, 0.1, 0.1, 0.1, 0.6])
 
-selected_genre = GENRE_OPTIONS[label]
+with cols[0]:
+    label = st.selectbox(
+        "Che tipo di film?",
+        options=list(GENRE_OPTIONS.keys()),
+        index=0,
+    )
+
+    selected_genre = GENRE_OPTIONS[label]
+
+with cols[1]:
+    platform = st.selectbox(
+        "Piattaforma",
+        options=list(PLATFORM_OPTIONS.keys()),
+        index=0,
+    )
+
+    selected_platform = PLATFORM_OPTIONS[platform]
 
 # reset history if filter changes
-if st.session_state.last_genre != selected_genre:
+if st.session_state.last_genre != selected_genre or st.session_state.last_platform != selected_platform:
     st.session_state.shown_ids.clear()
-    st.session_state.no_more_movies = False   # 👈 aggiungi
+    st.session_state.no_more_movies = False
     st.session_state.last_genre = selected_genre
+    st.session_state.last_platform = selected_platform
 
 # -----------------------
 # Action
@@ -76,7 +98,11 @@ if st.session_state.last_genre != selected_genre:
 
 if not st.session_state.no_more_movies:
     if st.button("🎲 Suggerisci un film"):
-        filters = {"genre": selected_genre} if selected_genre else {}
+        filters = {}
+        if selected_genre:
+            filters["genre"] = selected_genre
+        if selected_platform:
+            filters["platform"] = selected_platform
 
         movie = get_random_movie(
             movies,
@@ -104,7 +130,7 @@ else:
 if st.session_state.current_movie:
     m = st.session_state.current_movie
 
-    col_poster, col_info, col_stream = st.columns([1, 2, 1])
+    col_poster, col_info, col_trailer = st.columns([0.2, 0.4, 0.4])
 
     with col_poster:
         if m.get("poster_path"):
@@ -120,23 +146,25 @@ if st.session_state.current_movie:
         st.caption(f"{year} · ⭐ {rating}/10")
         st.write(m.get("overview", "Trama non disponibile."))
 
-    with col_stream:
         st.markdown("### 📺 Dove guardarlo")
         providers = get_watch_providers(m["id"])
-
         if providers:
-            cols = st.columns(min(len(providers), 5))
-            for col, p in zip(cols, providers[:5]):
-                with col:
-                    if p.get("logo_path"):
-                        st.image(
-                            f"https://image.tmdb.org/t/p/w45{p['logo_path']}"
-                        )
+            cols = st.columns(10)
+            for i, col in enumerate(cols):
+                if i < len(providers):
+                    p = providers[i]
+                    with col:
+                        if p.get("logo_path"):
+                            st.image(
+                                f"https://image.tmdb.org/t/p/w45{p['logo_path']}"
+                            )
         else:
             st.caption("Non disponibile in streaming.")
 
-    trailer = get_movie_trailer(m["id"])
-    if trailer:
-        st.markdown("<br>", unsafe_allow_html=True)
-        st.markdown("### 🎬 Trailer")
-        st.markdown(f"[Guarda il trailer su YouTube]({trailer})")
+    with col_trailer:
+        trailer = get_movie_trailer(m["id"])
+        if trailer:
+            # st.markdown("<br>", unsafe_allow_html=True)
+            st.markdown("### 🎬 Trailer")
+            # st.markdown(f"[Guarda il trailer su YouTube]({trailer})")
+            st.video(trailer)
