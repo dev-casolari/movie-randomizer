@@ -155,5 +155,18 @@
     "platforms": [],
     "rating": 7.4,
     "active": true
+  },
+  {
+    "tmdb_id": 68718,
+    "title": "Django Unchained",
+    "year": 2012,
+    "genres": [
+      "drama"
+    ],
+    "platforms": [
+      "netflix"
+    ],
+    "rating": 8.2,
+    "active": true
   }
 ]
