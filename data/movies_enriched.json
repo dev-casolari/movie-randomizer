@@ -168,5 +168,76 @@
     ],
     "rating": 8.2,
     "active": true
+  },
+  {
+    "tmdb_id": 8358,
+    "title": "Cast Away",
+    "year": 2000,
+    "genres": [
+      "drama"
+    ],
+    "platforms": [],
+    "rating": 7.7,
+    "active": true
+  },
+  {
+    "tmdb_id": 1477388,
+    "title": "Sex On Phone",
+    "year": 2025,
+    "genres": [
+      "drama",
+      "romance"
+    ],
+    "platforms": [],
+    "rating": 7.0,
+    "active": true
+  },
+  {
+    "tmdb_id": 244786,
+    "title": "Whiplash",
+    "year": 2014,
+    "genres": [
+      "drama"
+    ],
+    "platforms": [],
+    "rating": 8.4,
+    "active": true
+  },
+  {
+    "tmdb_id": 1058694,
+    "title": "Radical",
+    "year": 2023,
+    "genres": [
+      "drama"
+    ],
+    "platforms": [],
+    "rating": 8.3,
+    "active": true
+  },
+  {
+    "tmdb_id": 490132,
+    "title": "Green Book",
+    "year": 2018,
+    "genres": [
+      "drama",
+      "comedy"
+    ],
+    "platforms": [],
+    "rating": 8.2,
+    "active": true
+  },
+  {
+    "tmdb_id": 1124,
+    "title": "The Prestige",
+    "year": 2006,
+    "genres": [
+      "drama",
+      "thriller"
+    ],
+    "platforms": [
+      "now"
+    ],
+    "rating": 8.2,
+    "active": true
   }
 ]
