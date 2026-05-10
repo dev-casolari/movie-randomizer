@@ -21,9 +21,7 @@
       "crime",
       "drama"
     ],
-    "platforms": [
-      "disney"
-    ],
+    "platforms": [],
     "rating": 8.1,
     "active": true
   },
@@ -45,9 +43,7 @@
     "genres": [
       "drama"
     ],
-    "platforms": [
-      "disney"
-    ],
+    "platforms": [],
     "rating": 8.0,
     "active": true
   },
@@ -203,7 +199,9 @@
       "drama",
       "thriller"
     ],
-    "platforms": [],
+    "platforms": [
+      "prime"
+    ],
     "rating": 8.4,
     "active": true
   },
