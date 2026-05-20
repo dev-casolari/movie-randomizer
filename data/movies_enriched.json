@@ -14,6 +14,57 @@
     "active": true
   },
   {
+    "tmdb_id": 359940,
+    "title": "Tre manifesti a Ebbing, Missouri",
+    "year": 2017,
+    "genres": [
+      "crime",
+      "drama"
+    ],
+    "platforms": [
+      "disney"
+    ],
+    "rating": 8.1,
+    "active": true
+  },
+  {
+    "tmdb_id": 44264,
+    "title": "Il Grinta",
+    "year": 2010,
+    "genres": [
+      "drama"
+    ],
+    "platforms": [],
+    "rating": 7.3,
+    "active": true
+  },
+  {
+    "tmdb_id": 381284,
+    "title": "Il diritto di contare",
+    "year": 2016,
+    "genres": [
+      "drama"
+    ],
+    "platforms": [
+      "disney"
+    ],
+    "rating": 8.0,
+    "active": true
+  },
+  {
+    "tmdb_id": 45269,
+    "title": "Il discorso del re",
+    "year": 2010,
+    "genres": [
+      "drama"
+    ],
+    "platforms": [
+      "prime"
+    ],
+    "rating": 7.7,
+    "active": true
+  },
+  {
     "tmdb_id": 12405,
     "title": "The Millionaire",
     "year": 2008,
@@ -55,12 +106,38 @@
     "active": true
   },
   {
+    "tmdb_id": 152742,
+    "title": "La migliore offerta",
+    "year": 2013,
+    "genres": [
+      "drama",
+      "romance"
+    ],
+    "platforms": [
+      "now"
+    ],
+    "rating": 7.8,
+    "active": true
+  },
+  {
     "tmdb_id": 25196,
     "title": "Crazy Heart",
     "year": 2009,
     "genres": [
       "drama",
       "romance"
+    ],
+    "platforms": [],
+    "rating": 6.9,
+    "active": true
+  },
+  {
+    "tmdb_id": 256591,
+    "title": "Focus - Niente Ã¨ come sembra",
+    "year": 2015,
+    "genres": [
+      "romance",
+      "comedy"
     ],
     "platforms": [],
     "rating": 6.9,
@@ -79,6 +156,34 @@
     "active": true
   },
   {
+    "tmdb_id": 68718,
+    "title": "Django Unchained",
+    "year": 2012,
+    "genres": [
+      "drama"
+    ],
+    "platforms": [
+      "netflix",
+      "prime",
+      "now"
+    ],
+    "rating": 8.2,
+    "active": true
+  },
+  {
+    "tmdb_id": 8358,
+    "title": "Cast Away",
+    "year": 2000,
+    "genres": [
+      "drama"
+    ],
+    "platforms": [
+      "now"
+    ],
+    "rating": 7.7,
+    "active": true
+  },
+  {
     "tmdb_id": 1477388,
     "title": "Sex On Phone",
     "year": 2025,
@@ -91,6 +196,20 @@
     "active": true
   },
   {
+    "tmdb_id": 244786,
+    "title": "Whiplash",
+    "year": 2014,
+    "genres": [
+      "drama",
+      "thriller"
+    ],
+    "platforms": [
+      "prime"
+    ],
+    "rating": 8.4,
+    "active": true
+  },
+  {
     "tmdb_id": 1058694,
     "title": "Radical",
     "year": 2023,
@@ -99,6 +218,18 @@
     ],
     "platforms": [],
     "rating": 8.3,
+    "active": true
+  },
+  {
+    "tmdb_id": 490132,
+    "title": "Green Book",
+    "year": 2018,
+    "genres": [
+      "drama",
+      "comedy"
+    ],
+    "platforms": [],
+    "rating": 8.2,
     "active": true
   },
   {
