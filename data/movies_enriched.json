@@ -92,20 +92,6 @@
     "active": true
   },
   {
-    "tmdb_id": 164457,
-    "title": "Il fuoco della vendetta - Out of the Furnace",
-    "year": 2013,
-    "genres": [
-      "thriller",
-      "drama"
-    ],
-    "platforms": [
-      "prime"
-    ],
-    "rating": 6.6,
-    "active": true
-  },
-  {
     "tmdb_id": 152742,
     "title": "La migliore offerta",
     "year": 2013,
@@ -205,17 +191,6 @@
     ],
     "platforms": [],
     "rating": 8.4,
-    "active": true
-  },
-  {
-    "tmdb_id": 1058694,
-    "title": "Radical",
-    "year": 2023,
-    "genres": [
-      "drama"
-    ],
-    "platforms": [],
-    "rating": 8.3,
     "active": true
   },
   {
