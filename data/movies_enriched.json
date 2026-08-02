@@ -229,19 +229,5 @@
     "platforms": [],
     "rating": 8.2,
     "active": true
-  },
-  {
-    "tmdb_id": 1124,
-    "title": "The Prestige",
-    "year": 2006,
-    "genres": [
-      "drama",
-      "thriller"
-    ],
-    "platforms": [
-      "now"
-    ],
-    "rating": 8.2,
-    "active": true
   }
 ]
