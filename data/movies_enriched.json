@@ -163,6 +163,7 @@
       "drama"
     ],
     "platforms": [
+      "prime",
       "now"
     ],
     "rating": 8.2,
@@ -201,7 +202,9 @@
       "drama",
       "thriller"
     ],
-    "platforms": [],
+    "platforms": [
+      "prime"
+    ],
     "rating": 8.4,
     "active": true
   },
